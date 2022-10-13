@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+    .section-class{
+    margin: 15px auto;
+    padding: 30px;
+    background: #e8dde2;
+    width: 900px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 10px #999;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Dictionary</title>
+</head>
+<body>
+<section class="section-class">
+    <div class="">
+    <form action="/" method="get">
+        <div class="form-group">
+            <input type="text" name="keyword" placeholder="Text to Search" class="form-control"></input>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Search" class="btn btn-primary"></input>
+        </div>
+    </form>
+    </div>
+    <br>
+    <div class="" style="font-size: 15px;font-style: italic;"><strong><span style="font-size: 13px; fon-size: normal">{{str_to_search}}</span></strong> : {{meaning}}</div>
+</section>
+</body>
+</html>
